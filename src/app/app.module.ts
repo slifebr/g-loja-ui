@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { TableModule } from 'primeng/table';
 import { DataTableModule,
          ButtonModule,
@@ -28,6 +29,7 @@ import { CategoriaService } from './categoria/categoria.service';
     BrowserAnimationsModule,
     HttpClientModule,
 
+    NgbModule.forRoot(),
     TableModule,
     DataTableModule,
     ButtonModule,
